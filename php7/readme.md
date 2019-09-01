@@ -1,5 +1,40 @@
 # PHP7
 
+## 二.源码结构(v7.4)
+
+```c
+TSRM:
+  |——
+  |——
+  
+Zend:
+  |——
+build:
+  |——
+docs:
+  |——
+ext:
+  |——
+main:
+  |——
+pear:
+  |——
+sapi:
+  |——
+scripts:
+  |——
+tests:
+  |——
+buildconf
+configure.ac
+php.ini-development
+php.ini-production
+run-tests.php
+
+```
+
+
+
 ## 一.PHP7->PHP5 写法用法变更
 
 1.脚本使用何种类型控制方式的声明：
